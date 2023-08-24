@@ -1,0 +1,98 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: blueviolet;
+    min-height: 100vh;
+}
+.block{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+.blockFind{
+    width: 30px;
+    height: 30px;
+    background-color: inherit;
+    cursor: pointer;
+}
+.blockWasFound{
+    background-color: red;
+}
+.flex{
+    width: 24%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.bl{
+    width: 40%;
+    margin: 10px;
+}
+.divImage{
+    height: 670px;
+    width: 390px;
+    border-radius: 20px;
+    background-image: url(./ImageOfWarrior.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid blueviolet;
+}
+.divSt{
+    width: 30%;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+.divch{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.divchp{
+    color: azure;
+}
+.stinp{
+    margin-bottom: 8px;
+}
+.divchpp{
+    margin: 0;
+}
+.shortbl{
+    width: 120px;
+}
+.divHelmImage{
+    cursor: pointer;
+    height: 370px;
+    width: 370px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid blueviolet;
+}
+.divHelmImage:hover{
+    border: 5px solid blueviolet;
+}
+.flexImg{
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.divHelmImage1{
+    background-image: url(./KorHelm.jpg);
+}
+.divHelmImage2{
+    background-image: url(./MontHelm.jpg);
+}
+.divHelmImage3{
+    background-image: url(./HalkHelm.jpg);
+}
+.divHelmImage4{
+    background-image: url(./IllirHelm.jpg);
+}
